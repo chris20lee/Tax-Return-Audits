@@ -1,8 +1,3 @@
-# Name: Shadi Chamseddine 100937807
-# Name: Christopher Lee   100937241
-# Course Number: STAT5703-W
-# Evaluation: Final Project
-
 # Install packages if not already installed
 if(!require(caret)) install.packages("caret") # Dummy variables
 if(!require(class)) install.packages("class") # K-Nearest Neighbour
@@ -16,7 +11,7 @@ if(!require(rggobi)) install.packages("rggobi") # ggobi
 if(!require(stats)) install.packages("stats") # K-Mmeans
 
 # Load dataset into R
-file_dir = paste0("C:/Users/Chris/Google Drive/University/Graduate Studies/Year 2 (Fall 2019 - Winter 2020)/Term 2 (Winter 2019)/STAT 5703 - Data Mining I/Final Project/audit.csv")
+file_dir = paste0("C:/Users/Chris/Desktop/audit.csv")
 audit = read.csv(file = file_dir)
 
 # View dataset properties before data manipulation
